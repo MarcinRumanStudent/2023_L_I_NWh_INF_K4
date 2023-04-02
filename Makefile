@@ -6,5 +6,5 @@ lint:
 run:
 	python main.py
 	.PHONY: test
-	test:
-		PYTHONPATH=. py.test.--verbose.-s
+test:
+	PYTHONPATH=. py.test.--verbose.-s
